@@ -1,0 +1,1 @@
+export MCR_CACHE_ROOT=/lscratch/$SLURM_JOB_ID; tar -C /lscratch/$SLURM_JOB_ID -xf /usr/local/matlab-compiler/v95.tar.gz && cd ~/19-01-172_DCA_test_with_simulated && ./run_dca.sh /lscratch/$SLURM_JOB_ID/v95 s0_simulated_original.txt

@@ -1,0 +1,3 @@
+#!/bin/bash
+
+./bin/ace -d PF00200 -i cov -o w_pred -g2 0.0002 -b 4190
